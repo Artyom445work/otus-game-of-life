@@ -1,0 +1,19 @@
+.desk-row {
+    display: flex;
+}
+
+.cell-alive {
+    height: 30px;
+    width: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: black;
+}
+
+.cell-dead {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: white;
+}
